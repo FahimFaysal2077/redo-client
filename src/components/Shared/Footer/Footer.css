@@ -1,0 +1,64 @@
+
+.footer-area{
+    background-image: url(../../../images/footer-bg.jpg);
+    background-size: cover;
+    height: 535px;
+}
+
+.footer-area li{
+    padding-bottom: 10px;
+}
+
+.social-media .icon{
+    height: 40px;
+    width: 40px;
+    color: #1cc7c1;
+    border-radius: 50%;
+    border: 1px solid #6ACECE;
+    padding: 10px;
+}
+.social-media .active-icon{
+    background-color: #6ACECE ;
+    color:white;
+}
+
+.social {
+    position: relative;
+    top: -5px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer
+}
+
+.icon-1:hover {
+    color: #3b5998;
+}
+
+.icon-2:hover {
+    color: #DB4437;
+}
+
+.icon-3:hover {
+    color: #8134AF;
+}
+
+.footer-text {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.contact-number h6 {
+    font-size: 23px;
+    background: -webkit-linear-gradient(#c6ffdd, #fbd786, #f7797d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    
+}
+
+.contact-number button:hover {
+    background-color: #fbd786;
+    color: #000000;
+}
